@@ -5,7 +5,7 @@ yum install epel-release
 ```
 #### Insert the repo creating a file called nginx.repo and add the lines bellow
 
-vim /etc/yum.repos.d/nginx.repo 
+vim /etc/yum.repos.d/nginx.repo <br>
 [nginx] 
 name=nginx repo
 baseurl=http://nginx.org/packages/mainline/rhel/7/$basearch/ 
