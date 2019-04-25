@@ -14,14 +14,14 @@ enabled=1 <br>
     
 #### Execute the commands and install Nginx
 
-yum repolist all 
-yum install nginx.x86_64 
-systemctl enable nginx 
+yum repolist all <br>
+yum install nginx.x86_64 <br> 
+systemctl enable nginx <br>
 
 #### Create a file called in the /etc/nginx/conf.d/ wuth the name vhosts.conf 
 
-firewall-cmd --add-service=http --permanent 
-firewall-cmd --reload 
-systemctl start nginx 
+firewall-cmd --add-service=http --permanent <br>
+firewall-cmd --reload <br>
+systemctl start nginx <br>
 ```
 
