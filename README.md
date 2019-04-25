@@ -18,7 +18,7 @@ yum repolist all <br>
 yum install nginx.x86_64 <br> 
 systemctl enable nginx <br>
 
-#### Create a file called in the /etc/nginx/conf.d/ wuth the name vhosts.conf 
+#### Create a file called in the /etc/nginx/conf.d/ with the name vhosts.conf and insert the code present in this project 
 
 firewall-cmd --add-service=http --permanent <br>
 firewall-cmd --reload <br>
