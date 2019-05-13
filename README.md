@@ -16,7 +16,7 @@ gpgcheck=0
 enabled=1 
 ```
 
-#### Execute the commands and install Nginx
+#### Execute the commands and install Nginx:
 
 ```sh
 yum repolist all 
@@ -24,7 +24,7 @@ yum install nginx.x86_64
 systemctl enable nginx
 ```
 
-#### Create a file called in the /etc/nginx/conf.d/ with the name vhosts.conf and insert the code present in this project 
+#### Create a file called in the /etc/nginx/conf.d/ with the name vhosts.conf and insert the code present in this project: 
 
 ```sh
 firewall-cmd --add-service=http --permanent 
